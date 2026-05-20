@@ -331,97 +331,25 @@
       font-family: var(--font-mono);
       font-size: 0.75rem;
       color: var(--text-secondary);
-    }
-
-    .mockup__content {
-      height: 500px;
-      display: flex;
-      position: relative;
-    }
-
-    .mockup__sidebar {
-      width: 60px;
-      border-right: 1px solid var(--border);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 20px;
-      gap: 20px;
-    }
-
-    .mockup__side-icon {
-      width: 32px;
-      height: 32px;
-      background: var(--bg-surface-alt);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-muted);
-    }
-
-    .mockup__side-icon--active {
-      background: var(--accent-muted);
-      color: var(--accent);
-    }
-
-    .mockup__main {
-      flex: 1;
-      padding: 24px;
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      gap: 20px;
-    }
-
-    .mockup__chart {
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
       position: relative;
       overflow: hidden;
     }
 
-    .mockup__chart::after {
-      content: '';
+    .mockup__content {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      background: #000;
+    }
+
+    .mockup__video {
       position: absolute;
-      bottom: 0;
+      top: 0;
       left: 0;
       width: 100%;
-      height: 60%;
-      background: linear-gradient(0deg, rgba(99, 60, 255, 0.1), transparent);
-    }
-
-    .mockup__line {
-      position: absolute;
-      top: 40%;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background: var(--accent);
-      box-shadow: 0 0 15px var(--accent);
-    }
-
-    .mockup__ai-panel {
-      background: var(--bg-surface-alt);
-      border: 1px solid var(--border-accent);
-      border-radius: var(--radius-md);
-      padding: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .mockup__ai-bubble {
-      padding: 10px;
-      border-radius: 8px;
-      font-size: 0.75rem;
-      background: var(--bg-elevated);
-    }
-
-    .mockup__ai-bubble--user {
-      align-self: flex-end;
-      background: var(--accent);
-      color: #fff;
+      height: 100%;
+      object-fit: cover;
     }
 
     /* Bento Grid */
@@ -693,24 +621,10 @@
             </div>
           </div>
           <div class="mockup__content">
-            <div class="mockup__sidebar">
-              <div class="mockup__side-icon mockup__side-icon--active"><i data-lucide="layout-dashboard" size="18"></i></div>
-              <div class="mockup__side-icon"><i data-lucide="trending-up" size="18"></i></div>
-              <div class="mockup__side-icon"><i data-lucide="code-2" size="18"></i></div>
-              <div class="mockup__side-icon"><i data-lucide="message-square" size="18"></i></div>
-              <div class="mockup__side-icon" style="margin-top: auto; margin-bottom: 20px;"><i data-lucide="settings" size="18"></i></div>
-            </div>
-            <div class="mockup__main">
-              <div class="mockup__chart">
-                <div class="mockup__line"></div>
-              </div>
-              <div class="mockup__ai-panel">
-                <span class="eyebrow" style="font-size: 10px; opacity: 0.5;">EDC AI ASSISTANT</span>
-                <div class="mockup__ai-bubble">Analyzing BTC liquidation levels...</div>
-                <div class="mockup__ai-bubble--user">Show me the 4H conviction level.</div>
-                <div class="mockup__ai-bubble">Conviction is high at $94.2k support.</div>
-              </div>
-            </div>
+            <video class="mockup__video" autoplay muted loop playsinline>
+              <source src="EDC BROWSER - DEMO.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
