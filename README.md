@@ -12,8 +12,7 @@ Get the latest installer from **[Releases](https://github.com/ENODDEDC/EDC-Brows
 
 | Platform | File |
 |----------|------|
-| Windows (x64) | `EDC-Browser-Setup-x.x.x.exe` |
-| Windows (x64, portable) | `EDC-Browser-Portable-x.x.x.exe` |
+| Windows (x64) | `EDC-Browser-Setup-1.0.0.exe` |
 
 ---
 
@@ -36,8 +35,6 @@ Get the latest installer from **[Releases](https://github.com/ENODDEDC/EDC-Brows
 1. Download the latest **Setup** installer from [Releases](https://github.com/ENODDEDC/EDC-Browser/releases/latest).
 2. Run the installer and follow the prompts.
 3. Launch **EDC Browser** from the Start menu or desktop shortcut.
-
-Portable builds do not require installation — run the `.exe` directly.
 
 ---
 
