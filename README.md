@@ -2,20 +2,24 @@
 
 This repository hosts **official EDC Browser release builds only**.
 
-It does **not** contain source code. Development is maintained separately in a private repository.
+It does **not** contain source code. Development is maintained in a separate private repository.
 
 ---
 
 ## Download
 
-Get the latest installer from **[Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest)**.
+Get the latest installer from **[Releases](https://github.com/ENODDEDC/EDC-Browser/releases/latest)**.
 
 | Platform | File |
 |----------|------|
 | Windows (x64) | `EDC-Browser-Setup-x.x.x.exe` |
 | Windows (x64, portable) | `EDC-Browser-Portable-x.x.x.exe` |
 
-Replace `YOUR_USERNAME/YOUR_REPO` with your actual GitHub path.
+---
+
+## About EDC Browser
+
+**EDC Browser** is a Windows desktop browser for **traders** and **developers** — browsing, market research, journaling, AI assistant, localhost dev tools, and media utilities in one app.
 
 ---
 
@@ -29,7 +33,7 @@ Replace `YOUR_USERNAME/YOUR_REPO` with your actual GitHub path.
 
 ## Installation
 
-1. Download the latest **Setup** installer from Releases.
+1. Download the latest **Setup** installer from [Releases](https://github.com/ENODDEDC/EDC-Browser/releases/latest).
 2. Run the installer and follow the prompts.
 3. Launch **EDC Browser** from the Start menu or desktop shortcut.
 
@@ -39,28 +43,29 @@ Portable builds do not require installation — run the `.exe` directly.
 
 ## Updates
 
-EDC Browser checks this repository for new releases and can notify you when an update is available.
+EDC Browser checks this repository for new releases. When a newer version is required, you will be prompted to download and install the latest build.
 
-To update manually, download the latest installer from Releases and run it over your existing installation.
+To update manually, download the latest installer from [Releases](https://github.com/ENODDEDC/EDC-Browser/releases) and run it over your existing installation.
 
 ---
 
 ## Release notes
 
-See the **[Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)** page for version history and changelogs.
+Version history and changelogs are on the **[Releases](https://github.com/ENODDEDC/EDC-Browser/releases)** page.
+
+**Current release:** [v1.0.0](https://github.com/ENODDEDC/EDC-Browser/releases/tag/v1.0.0)
 
 ---
 
 ## Support
 
-- **Website:** [https://edcbrowser.com](https://edcbrowser.com)
-- **Issues:** Use [GitHub Issues](https://github.com/YOUR_USERNAME/YOUR_REPO/issues) for install/update problems only (not source code bugs).
+- **Issues:** [GitHub Issues](https://github.com/ENODDEDC/EDC-Browser/issues) — install and update problems only
 
 ---
 
 ## License
 
-EDC Browser is proprietary software. See the installer and [edcbrowser.com](https://edcbrowser.com) for license terms.
+EDC Browser is proprietary software.
 
 ---
 
